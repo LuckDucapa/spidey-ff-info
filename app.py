@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Target API Configuration
 TARGET_API = "https://danger-info-alpha.vercel.app/accinfo"
 API_KEY = "DANGERxINFO"
-CREDIT_TEXT = "\n\nJSON credit: https://t.me/spidey_abd"
+CREDIT_TEXT = "\n\ncredit: https://t.me/spidey_abd"
 
 @app.route('/info', methods=['GET'])
 def get_info():
