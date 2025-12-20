@@ -36,7 +36,8 @@ def get_info():
 # Simple 404 for Home Page (since you said no home page)
 @app.route('/')
 def home():
-    return Response("Spidey FF Info API is Running. Use /info?uid=...", mimetype='text/plain')
+    return Response("Wrong Format!
+    Correct Format: https://spidey-ff-info.vercel.app/info?uid={uid}", mimetype='text/plain')
 
 if __name__ == '__main__':
     app.run()
